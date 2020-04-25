@@ -11,7 +11,7 @@ Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di
 Nel corso del mese di gennaio già si cominciavano i preparativi per rispondere ad aspettative piuttosto importanti. 
 L'idea di fondo era quella di conciliare un momento con la famiglia con festeggiamenti con gli amici di varia provenienza.
 
-Il luogo designato per la festa sembrava essere una spiaggia nei pressi di Montpellier. Qui avremmo noleggiato uno chiosco (o _paillote_) dove divertirsi fino all'alba - anche se non sono sicuro sicuro che avrebbe mantenuto il ritomo viste le abitudini consolidatesi in questi ultimi anni :)
+Il luogo designato per la festa sembrava essere una spiaggia nei pressi di Montpellier. Qui avremmo noleggiato uno chiosco (o _paillote_) dove divertirsi fino all'alba - anche se non sono sicuro sicuro che avrebbe mantenuto il ritmo viste le abitudini consolidatesi in questi ultimi anni :)
 
 ![](./img/playa.jpg)
 
