@@ -2,25 +2,41 @@
 layout: default
 ---
 
-Ciao a tutti,
-
-Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di festeggiare con amici e famiglie.
+Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di festeggiare con amici e famiglie. Sarebbe carino sorprenderla mostrandole la vicinanza di tutte le persone a lei care (oggi come in passato).
 
 ![](./img/bea.jpeg)
 
-Sto pensando di farle una sorpresa che consiste nel montare un video che ripercorra i suoi 30 anni attraverso i racconti e le immagini di amici e cari.
+## Cosa avrebbe voluto fare
 
-Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.com) al quale vi invito ad inviare **entro metà maggio** un breve video di auguri rievocando ricordi simpatici o teneri.
+Nel corso del mese di gennaio già si cominciavano i preparativi per rispondere ad aspettative piuttosto importanti. 
+L'idea di fondo era quella di conciliare un momento con la famiglia con festeggiamenti con gli amici di varia provenienza.
 
-Potete inviare anche foto d'epoca, lettere o pensieri significativi. Una contestualizzazione del ricordo (infanzia, scuole, università, famiglia, cavallo, pesci etc.) aiuterà a capire come fare il montaggio.
+Il luogo designato per la festa sembrava essere una spiaggia nei pressi di Montpellier. Qui avremmo noleggiato uno chiosco (o _paillote_) dove divertirsi fino all'alba - anche se non sono sicuro sicuro che avrebbe mantenuto il ritomo viste le abitudini consolidatesi in questi ultimi anni :)
 
-Inizierei sin da ora a raccogliere materiale e aneddoti così da lasciarvi altre persone che non ho mai conosciuto ma da cui potrebbe farle piacere ricevere auguri e un ricordo.
+![](./img/playa.jpg)
 
-Eventualmente possiamo integrare anche alcune di queste cose su questo sito!
+Purtroppo la situazione delineatasi in queste ultime settimane ci confronta con l'impossibilità di viaggiare, ma non tutto è perduto!
 
-Grazie mille e scrivetemi pure per ogni domanda.
+## Cosa possiamo fare
 
-Mauro
+Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.com) al quale vi invito ad inviare **entro metà maggio** i vostri auguri e i vostri ricordi. Questi possono essere sotto varia forma:
 
-PS. Fate girare il messaggio a chi non conosco
-PS2. Non so usare programmi per fare il montaggio video.  Inoltre lavoro da casa per un po' e sto con Bea giorno e notte. Se qualcuno di voi è disponibile, sarò più che felice di ricevere una mano per il montaggio.
+* Un breve video (<20 MB in allegato, altrimenti tramite servizi tipo [WeTransfer](https://wetransfer.com/) per file più pesanti)
+* Foto d'epoca
+* Lettere o racconti
+* Un disegno, una canzone
+* ... (veramente quello che vi sentite!)
+
+Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi simpatici o teneri. Non esitate a contestualizzare i vostri ricordi (ad es. infanzia, scuole, università, famiglia, cavallo, pesci etc). Questo aiuterà eventualmente a procedere a un montaggio dei vari video.
+
+**Inizierei quindi sin da ora a raccogliere materiale e aneddoti. Per qualunque domanda non esitate a scrivere una mail!**
+
+Vi pregherei inoltre di contattare altre persone che non ho mai conosciuto che possano avere un ricordo carino e significativo. Sono certo che le farà piacere ricevere anche qualche augurio inatteso!
+
+## Che altro?
+
+Per gli scritti e foto, se siete d'accordo, vorrei pubblicarne una raccolta sotto forma di blog in modo tale da condividere i ricordi.
+
+Sarei davvero proprio lieto di raccogliere molti aneddoti (magari anche con fotografie) delle varie epoche.
+
+Per quanto riguarda i video, confesso di non essere in grado di usare programmi per il montaggio/post produzione. Inoltre, lavorando da casa, sto con Bea giorno e notte (poverina). Se qualcuno di voi è disponibile, sarò più che felice di ricevere una mano per unire i messaggi di auguri in modo carino.
