@@ -1,12 +1,17 @@
 theme: jekyll-theme-merlot
 plugins:
+  - jekyll-paginate
   - jekyll-seo-tag
-# --- # 
+# -paginate configuration- # 
+paginate: 2
+paginate_path: "/blog/page:num/"
+# -seo configuration- # 
 title: Trentesimo Bea
 description: Festeggiamola come avremmo voluto
 image: 
   path: /img/bea.jpeg
 lang: it_IT
 google_analytics: UA-164594656-1
-#'--#
-show_blog: false
+#-features flags-#
+show_blog: true
+show_excerpts: false
