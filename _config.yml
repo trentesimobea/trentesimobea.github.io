@@ -1,6 +1,10 @@
 theme: jekyll-theme-merlot
+plugins:
+  - jekyll-seo-tag
+# --- # 
 title: Trentesimo Bea
 description: Festeggiamola come avremmo voluto
 github:
   is_project_page: false
   is_user_page: false
+google_analytics: UA-164594656-1
