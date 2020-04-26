@@ -1,0 +1,27 @@
+.link-button-outer { 
+    display: block;
+    position: relative;
+    background-color: #7c334f;
+    height: 85px;
+    width: 160px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.link-button-inner {
+    display: block;
+    position: absolute;
+    border: 5px solid #cd596b;
+    background-color: #7c334f;
+    z-index: 1;
+    height: 75px;
+    width: 150px;
+    margin: 5px 5px;
+    color: white;
+    font: inherit;
+    font-size: 25px;
+    cursor: pointer;
+}

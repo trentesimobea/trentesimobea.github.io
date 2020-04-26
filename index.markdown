@@ -4,20 +4,26 @@ layout: home
 
 Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di festeggiare con amici e famiglie. Sarebbe carino sorprenderla mostrandole la vicinanza di tutte le persone a lei care (oggi come in passato).
 
-![](./img/bea.jpeg)
+<div class="link-button-outer">
+<a href="/blog">
+    <button class="link-button-inner">Vai al blog</button>
+</a>
+</div>
 
-## Cosa avrebbe voluto fare
+![bea](./img/bea.jpeg)
+
+<p id="cosa-avrebbe-voluto-fare" class="header-level-2">Cosa avrebbe voluto fare</p>
 
 Nel corso del mese di gennaio già si cominciavano i preparativi per rispondere ad aspettative piuttosto importanti. 
 L'idea di fondo era quella di conciliare un momento con la famiglia con festeggiamenti con gli amici di varia provenienza.
 
-Il luogo designato per la festa sembrava essere una spiaggia nei pressi di Montpellier. Qui avremmo noleggiato uno chiosco (o _paillote_) dove divertirsi fino all'alba - anche se non sono sicuro sicuro che avrebbe mantenuto il ritmo viste le abitudini consolidatesi in questi ultimi anni :)
+Il luogo designato per la festa sembrava essere una spiaggia nei pressi di Montpellier. Qui avremmo noleggiato uno chiosco (o _paillote_) dove divertirsi fino all'alba - anche se non sono sicuro sicuro che avre bbe mantenuto il ritmo viste le abitudini consolidatesi in questi ultimi anni :)
 
 ![](./img/playa.jpg)
 
 Purtroppo la situazione delineatasi in queste ultime settimane ci confronta con l'impossibilità di viaggiare, ma non tutto è perduto!
 
-## Cosa possiamo fare
+<p id="cosa-possiamo-fare" class="header-level-2">Cosa possiamo fare</p>
 
 Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.com) al quale vi invito ad inviare **entro metà maggio** i vostri auguri e i vostri ricordi. Questi possono essere sotto varia forma:
 
@@ -33,7 +39,7 @@ Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi 
 
 Vi pregherei inoltre di contattare altre persone che non ho mai conosciuto che possano avere un ricordo carino e significativo. Sono certo che le farà piacere ricevere anche qualche augurio inatteso!
 
-## Che altro?
+<p id="che-altro" class="header-level-2">Che altro?</p>
 
 Per gli scritti e foto, se siete d'accordo, vorrei pubblicarne una raccolta sotto forma di blog in modo tale da condividere i ricordi.
 

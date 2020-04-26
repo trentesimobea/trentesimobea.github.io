@@ -1,11 +1,16 @@
 ---
-layout: home
+layout: blog
 description: Raccontiamola
 pagination:
   enable: true
+list_title: Racconti
 ---
 
-<h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+<p> Vi invito a raccontare Bea inviando a <a href="mailto:trentesimobea@gmail.com">trentesimobea@gmail.com</a> un aneddoto, pensiero, una poesia o una ricordo. Se volete, potrete accompagnare il tutto con una o più foto, canzoni video.</p>
+<p> Qualora a metà maggio si fosse raccolto già abbastanza materiale, mi adopererò affinché venga stampato e possa riceverne una copia sotto forma di libro!</p>
+
+<hr/>
+<p class="post-list-heading header-level-2" style="text-align:center;">{{ page.list_title | default: "Posts" }}</p>
 <ul class="post-list">
   <!-- post list -->
   {% for post in paginator.posts %}
