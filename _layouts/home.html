@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{%- include header.html -%}
+{% if site.show_blog %}
+    <section id="downloads">
+        <span class="inner">
+        <a href="/" class="zip">Home</a>
+        <a href="/blog.html" class="tgz">Blog</a>
+        </span>
+    </section>
+{% else %}
+    <div id="no-downloads">
+        <span class="inner"></span>
+    </div>
+{% endif %}
+
+<span class="banner-fix"></span>
+
+<section id="main_content">
+  {{ content }}
+</section>
+
+<footer>
+  <span class="ribbon-outer">
+    <span class="ribbon-inner">
+      <p>Grazie mille!</p>
+    </span>
+    <span class="left-tail"></span>
+    <span class="right-tail"></span>
+  </span>
+  <p>Mauro, Giacomo e Pietro</p>
+  <img src="/img/all.jpg">
+</footer>

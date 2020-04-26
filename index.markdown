@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 ---
 
 Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di festeggiare con amici e famiglie. Sarebbe carino sorprenderla mostrandole la vicinanza di tutte le persone a lei care (oggi come in passato).
