@@ -1,7 +1,40 @@
+#- Github defaults -#
+lsi: false
+safe: true
+# source: [your repo's top level directory]
+incremental: false
+highlighter: rouge
+gist:
+  noscript: false
+kramdown:
+  math_engine: mathjax
+  syntax_highlighter: rouge
+
+##
+#- Project configuration -#
+##
+url: https://trentesimobea.github.io
 theme: jekyll-theme-merlot
 plugins:
+  # - mandatory for Github pages - #
+  - jekyll-coffeescript
+  - jekyll-default-layout
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-optional-front-matter
   - jekyll-paginate
+  - jekyll-readme-index
+  - jekyll-titles-from-headings
+  - jekyll-relative-links
+  # - custom - #
   - jekyll-seo-tag
+  # - unsupported - #
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+
 # -paginate configuration- # 
 paginate: 2
 paginate_path: "/blog/page:num/"
@@ -12,6 +45,7 @@ image:
   path: /img/bea.jpeg
 lang: it_IT
 google_analytics: UA-164594656-1
+
 #-features flags-#
 show_blog: true
 show_excerpts: false
