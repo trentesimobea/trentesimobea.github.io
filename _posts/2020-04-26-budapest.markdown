@@ -4,6 +4,7 @@ title:  La nostra prima serata a Budapest
 description: Raccontiamola
 date:   2020-04-26 15:22:25 +0200
 categories: famiglia
+tag: memory
 author: Mauro
 ---
 

@@ -43,12 +43,13 @@ image:
   path: /img/bea.jpeg
 lang: it_IT
 google_analytics: UA-164594656-1
+
 # -paginate configuration- # 
 # paginate: off
 # paginate_path: "/blog/page:num/"
 # -pagination-v2 configuration- #
 pagination:
-  enabled: false
+  enabled: true
   # collection: 'videos'
   # per_page: 5
   # sort_field: 'title' # default: date
