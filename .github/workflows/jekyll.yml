@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll site CI/CD
 
 on:
   push:
@@ -18,3 +18,7 @@ jobs:
         docker run \
         -v ${{ github.workspace }}:/srv/jekyll -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod 777 /srv/jekyll && jekyll build --future"
+    - name: Deploy the website
+      uses: helaili/jekyll-action@2.0.1
+      env:
+        JEKYLL_ENV: production 
