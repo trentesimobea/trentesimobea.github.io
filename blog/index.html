@@ -27,9 +27,7 @@ list_title: Racconti
       </a>
     </h3>
     <span class="post-meta">{{ post.author}}</span>
-    {%- if site.show_excerpts -%}
-      {{ post.excerpt }}
-    {%- endif -%}
+    {{ post.excerpt }}
   </li>
   {%- endfor -%}
 </ul>
