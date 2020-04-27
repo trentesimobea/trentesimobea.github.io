@@ -2,7 +2,8 @@
 set -euo pipefail
 
 bundle install
-echo "github:\n  build_revision: $(git rev-parse HEAD)" >> _config
+# echo "github:" >> _config.yml
+# echo "  build_revision: $(git rev-parse HEAD)" >> _config.yml
 
 JEKYLL_ENV=production bundle exec jekyll build -d _site --profile
 short_commit=$(git rev-parse --short HEAD)
@@ -13,10 +14,14 @@ touch .nojekyll
 if [[ ! -d .git ]]; then 
     git init
     git remote add origin git@github.com:trentesimobea/trentesimobea.github.io.git
+    git fetch --all
 fi
 
 git add --all
 git commit -m "Deploy version ${short_commit}"
 
+# For the first push
+# git push --force --set-upstream origin master
+git push
+
 cd ..
-git co .
