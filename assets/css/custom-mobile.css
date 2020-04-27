@@ -1,5 +1,11 @@
-.link-button-outer { 
-    display: block;
+.link-button-container {
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.link-button-outer {
+    display: inline-block;
     position: relative;
     background-color: #7c334f;
     height: 85px;
@@ -20,8 +26,17 @@
     height: 75px;
     width: 150px;
     margin: 5px 5px;
-    color: white;
+    color: #ece4d8;
     font: inherit;
-    font-size: 25px;
+    font-size: 30px;
     cursor: pointer;
+}
+
+.link-button-left {
+    margin-left: 77px;
+    margin-right: 39px;
+}
+
+.link-button-right {
+    margin-left: 38px;
 }
