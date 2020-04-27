@@ -14,11 +14,14 @@ touch .nojekyll
 if [[ ! -d .git ]]; then 
     git init
     git remote add origin git@github.com:trentesimobea/trentesimobea.github.io.git
+    git fetch --all
 fi
 
 git add --all
 git commit -m "Deploy version ${short_commit}"
 
+# For the first push
+# git push --force --set-upstream origin master
 git push
 
 cd ..
