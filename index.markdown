@@ -4,12 +4,19 @@ layout: home
 
 Per i trent'anni di Beatrice saremo bloccati in Francia senza la possibilità di festeggiare con amici e famiglie. Sarebbe carino sorprenderla mostrandole la vicinanza di tutte le persone a lei care (oggi come in passato).
 
-<div class="link-button-outer">
-<a href="/blog">
-    <button class="link-button-inner">Vai al blog</button>
-</a>
-</div>
+<div class="link-button-container">
+    <div class="link-button-outer link-button-left">
+    <a href="/auguri">
+        <button class="link-button-inner">Auguri</button>
+    </a>
+    </div>
 
+    <div class="link-button-outer link-button-right ">
+    <a href="/blog">
+        <button class="link-button-inner">Blog</button>
+    </a>
+    </div>
+</div>
 ![bea](./img/bea.jpeg)
 
 <p id="cosa-avrebbe-voluto-fare" class="header-level-2">Cosa avrebbe voluto fare</p>

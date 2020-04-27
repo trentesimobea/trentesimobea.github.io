@@ -4,10 +4,9 @@ title:  La nostra prima serata a Budapest
 description: Raccontiamola
 date:   2020-04-26 15:22:25 +0200
 categories: famiglia
+tag: memory
 author: Mauro
 ---
-
-_Dicembre 2014_
 
 Quando il nostro amore ancora doveva sbocciare, Bea accettò il mio invito per raggiungermi a Budapest per festeggiare il Capodanno 2015. A fronte di un suo tiepido assenso, la macchina organizzativa si era mossa per permetterle di raggiungermi senza che dovesse fare troppi sforzi.
 
@@ -33,4 +32,6 @@ Vidi lei, che agli occhi dei più poteva sembrare una _cicianebia_ acquisita con
 
 Nel corso dei giorni seguenti, quando ormai era innamorata, riuscì pure a farle indossare un paio di Crocs rosa!
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/NLZQ-cBrraM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+{% include youtube-video.html video_id='NLZQ-cBrraM' width='506' %}
+
+_Dicembre 2014_

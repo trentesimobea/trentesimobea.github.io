@@ -22,23 +22,20 @@ plugins:
   - jekyll-gist
   - jekyll-github-metadata
   - jekyll-optional-front-matter
-  - jekyll-paginate
+  # - jekyll-paginate
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
   # - custom supported - #
   - jekyll-seo-tag
   # - unsupported - #
-
+  - jekyll-paginate-v2
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - vendor
 
-# -paginate configuration- # 
-paginate: 2
-paginate_path: "/blog/page:num/"
 # -seo configuration- # 
 title: Trentesimo Bea
 description: Festeggiamola come avremmo voluto
@@ -47,6 +44,19 @@ image:
 lang: it_IT
 google_analytics: UA-164594656-1
 
+# -paginate configuration- # 
+# paginate: off
+# paginate_path: "/blog/page:num/"
+# -pagination-v2 configuration- #
+pagination:
+  enabled: true
+  # collection: 'videos'
+  # per_page: 5
+  # sort_field: 'title' # default: date
+  # sort_reverse: false # default: true
+  # category: 'videos'
+  # permalink: 'auguri/page:num/'
+  # indexpage: 'auguri/index'
 #-features flags-#
 show_blog: true
 show_excerpts: false

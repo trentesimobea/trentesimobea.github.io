@@ -1,36 +1,33 @@
 ---
 layout: blog
-description: Raccontiamola
+description: Tanti auguri
 pagination:
   enabled: true
-  tag: memory
-  sort_field: 'date'
-  sort_reverse: true
-  per_page: 1
-list_title: Racconti
+  category: auguri
+  sort_field: 'author'
+  sort_reverse: false
+  per_page: 2
+list_title: Auguri
 ---
 
-<p> Vi invito a raccontare Bea inviando a <a href="mailto:trentesimobea@gmail.com">trentesimobea@gmail.com</a> un aneddoto, pensiero, una poesia o una ricordo. Se volete, potrete accompagnare il tutto con una o più foto, canzoni video.</p>
-<p> Qualora a metà maggio si fosse raccolto già abbastanza materiale, mi adopererò affinché venga stampato e possa riceverne una copia sotto forma di libro!</p>
+<p> Vi invito a contattarmi a <a href="mailto:trentesimobea@gmail.com">trentesimobea@gmail.com</a> per inviare un video di auguri.</p>
+<p> Qualora il video fosse troppo grande da inviare via email, posso inviarvi un link Google Drive per darvi accesso immediato a una cartella condivisa</p>
 
 <hr/>
 <p class="post-list-heading header-level-2" style="text-align:center;">{{ page.list_title | default: "Posts" }}</p>
-<ul class="post-list">
+<div class="post-list">
   <!-- post list -->
   {% for post in paginator.posts %}
-  <li>
     <!--{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
     <!--span class="post-meta">{{ post.date | date: date_format }}</span-->
     <h3>
-      <a class="post-link" href="{{ post.url | relative_url }}">
+        <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
-      </a>
+        </a>
     </h3>
-    <span class="post-meta">{{ post.author}}</span>
     {{ post.excerpt }}
-  </li>
+    {% include youtube-video.html video_id=post.video_id width='506' %}
   {%- endfor -%}
-</ul>
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
@@ -45,9 +42,9 @@ list_title: Racconti
     {% if page == paginator.page %}
       <span class="webjeda">{{ page }}</span>
     {% elsif page == 1 %}
-      <a href="/blog/">{{ page }}</a>
+      <a href="/auguri/">{{ page }}</a>
     {% else %}
-      <a href="/blog/page{{ page }}/">{{ page }}</a>
+      <a href="/auguri/page{{ page }}/">{{ page }}</a>
     {% endif %}
   {% endfor %}
 
