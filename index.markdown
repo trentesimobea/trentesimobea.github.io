@@ -32,24 +32,42 @@ Purtroppo la situazione delineatasi in queste ultime settimane ci confronta con 
 
 <p id="cosa-possiamo-fare" class="header-level-2">Cosa possiamo fare</p>
 
+Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi simpatici o teneri. Non esitate a contestualizzare i vostri ricordi (ad es. infanzia, scuole, università, famiglia, cavallo, pesci etc). Questo aiuterà eventualmente a procedere a un montaggio dei vari video e alla pubblicazione dei ricordi scritti raccolti..
+
 Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.com) al quale vi invito ad inviare **entro metà maggio** i vostri auguri e i vostri ricordi. Questi possono essere sotto varia forma:
 
-* Un breve video (<20 MB in allegato, altrimenti tramite servizi tipo [WeTransfer](https://wetransfer.com/) per file più pesanti)
-* Foto d'epoca
-* Lettere o racconti
-* Un disegno, una canzone
-* ... (veramente quello che vi sentite!)
+<div class="card">
+  <img src="/img/giacomo.jpg" style="width: 100%;">
+  <div class="container">
+    <h4><b><a href="/blog">Un Pensiero</a></b></h4> 
+    <p style="font-weight: bold;">Entro metà maggio</p>
+    <ul>
+      <li>Foto d'epoca</li>
+      <li>Lettere o racconti</li>
+      <li>Un disegno, una canzone</li>
+      <li>... (veramente quello che vi sentite!)</li>
+    </ul>
+    <p>Con il vostro assenso, il tutto sarà pubblicato nel <a href="/blog">Blog</a></p> 
+    <p>Se i contributi saranno sufficienti, vorrei pubblicarne una raccolta cartacea sotto forma di libretto di ricordi</p>
+  </div>
+</div>
 
-Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi simpatici o teneri. Non esitate a contestualizzare i vostri ricordi (ad es. infanzia, scuole, università, famiglia, cavallo, pesci etc). Questo aiuterà eventualmente a procedere a un montaggio dei vari video.
+<div class="card">
+  {% include youtube-video.html video_id='A4bJXsw4mHU' width='100%' %}
+  <div class="container">
+    <h4><b><a href="/auguri">Video Auguri</a></b></h4> 
+    <p style="font-weight: bold;">Entro fine maggio</p>
+    <p>Inviaci un breve video di auguri accompagnato da una frase di saluto</p> 
+    <p>Qualora le dimensioni eccedessero quelle consentite per un allegato di una email, potete usare servizi quali <a href="https://wetransfer.com/">WeTransfer</a> oppure inviare via WhatsApp</p>
+  </div>
+</div>
 
-**Inizierei quindi sin da ora a raccogliere materiale e aneddoti. Per qualunque domanda non esitate a scrivere una mail!**
-
-Vi pregherei inoltre di contattare altre persone che non ho mai conosciuto che possano avere un ricordo carino e significativo. Sono certo che le farà piacere ricevere anche qualche augurio inatteso!
+**Inviterei quindi sin da ora a inviare materiale e aneddoti. Per qualunque domanda non esitate a scrivere una mail!**
 
 <p id="che-altro" class="header-level-2">Che altro?</p>
-
-Per gli scritti e foto, se siete d'accordo, vorrei pubblicarne una raccolta sotto forma di blog in modo tale da condividere i ricordi.
 
 Sarei davvero proprio lieto di raccogliere molti aneddoti (magari anche con fotografie) delle varie epoche.
 
 Per quanto riguarda i video, confesso di non essere in grado di usare programmi per il montaggio/post produzione. Inoltre, lavorando da casa, sto con Bea giorno e notte (poverina). Se qualcuno di voi è disponibile, sarò più che felice di ricevere una mano per unire i messaggi di auguri in modo carino.
+
+Vi pregherei inoltre di contattare altre persone che non ho mai conosciuto che possano avere un ricordo carino e significativo. Sono certo che le farà piacere ricevere anche qualche augurio inatteso!
