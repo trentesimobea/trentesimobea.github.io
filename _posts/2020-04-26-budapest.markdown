@@ -6,6 +6,7 @@ date:   2020-04-26 15:22:25 +0200
 categories: famiglia
 tag: memory
 author: Mauro
+preview_img: /img/posts/budapest-2.jpg
 ---
 
 Quando il nostro amore ancora doveva sbocciare, Bea accettò il mio invito per raggiungermi a Budapest per festeggiare il Capodanno 2015. A fronte di un suo tiepido assenso, la macchina organizzativa si era mossa per permetterle di raggiungermi senza che dovesse fare troppi sforzi.
