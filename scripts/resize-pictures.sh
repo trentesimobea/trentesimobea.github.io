@@ -26,11 +26,15 @@ function convertInDirectory() {
     new_filename=$(echo ${file// } | tr '[:upper:]' '[:lower:]')
 
     echo $new_filename
-    convert "${file}" -resize ${MAX_WIDTH}x${MAX_HEIGHT}\> "${new_filename}"
-    
+
+    # https://stackoverflow.com/questions/8392085/imagemagick-resize-to-max-width#8393523
+    # convert "${file}" -resize ${MAX_WIDTH}x${MAX_HEIGHT}\> "${new_filename}"
+    # convert "${file}" -rotate 90 "${file}"
+    convert "${file}" -resize ${MAX_WIDTH} "${new_filename}"
+
     if [[ "${file}" != "${new_filename}" ]]
     then
-      rm "$file"
+     rm "$file"
     fi
     
     case ${new_filename##*.} in
