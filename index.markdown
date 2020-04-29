@@ -32,7 +32,7 @@ Purtroppo la situazione delineatasi in queste ultime settimane ci confronta con 
 
 <p id="cosa-possiamo-fare" class="header-level-2">Cosa possiamo fare</p>
 
-Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi simpatici o teneri. Non esitate a contestualizzare i vostri ricordi (ad es. infanzia, scuole, università, famiglia, cavallo, pesci etc). Questo aiuterà eventualmente a procedere a un montaggio dei vari video e alla pubblicazione dei ricordi scritti raccolti..
+Sarebbe bello approfittare di questo traguardo importante per rievocare ricordi simpatici o teneri. Non esitate a contestualizzare i vostri ricordi (ad es. infanzia, scuole, università, famiglia, cavallo, pesci etc).
 
 Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.com) al quale vi invito ad inviare **entro metà maggio** i vostri auguri e i vostri ricordi. Questi possono essere sotto varia forma:
 
