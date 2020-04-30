@@ -2,7 +2,7 @@
 layout: post
 title:  Pensierini
 description: Raccontiamola
-date:   2020-04-28 21:19:25 +0200
+date:   2020-04-29 21:48:25 +0200
 categories: amici
 tag: memory
 author: Betta

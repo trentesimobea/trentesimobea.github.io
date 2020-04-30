@@ -4,8 +4,8 @@ description: Raccontiamola
 pagination:
   enabled: true
   tag: memory
-  sort_field: 'period'
-  sort_reverse: false
+  sort_field: 'time' # 'period'
+  sort_reverse: true # false
   per_page: 3
 list_title: Racconti
 ---
@@ -26,7 +26,7 @@ list_title: Racconti
         {{ post.title | escape }}
       </a>
     </h3>
-    <em>{{ post.author}}</em>
+    <em>{{ post.date | date: site.date_format }} - {{ post.author}}</em>
     <p class="post-meta">{{ post.excerpt }}</p>
    </li>
   {%- endfor -%}

@@ -60,3 +60,4 @@ pagination:
 #-features flags-#
 show_blog: true
 show_excerpts: false
+date_format: "%b %-d, %Y"
