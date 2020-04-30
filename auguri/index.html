@@ -10,10 +10,6 @@ pagination:
 list_title: Auguri
 ---
 
-<p> Vi invito a contattarmi a <a href="mailto:trentesimobea@gmail.com">trentesimobea@gmail.com</a> per inviare un video di auguri.</p>
-<p> Qualora il video fosse troppo grande da inviare via email, posso inviarvi un link Google Drive per darvi accesso immediato a una cartella condivisa</p>
-
-<hr/>
 <p class="post-list-heading header-level-2" style="text-align:center;">{{ page.list_title | default: "Posts" }}</p>
 <div class="post-list">
   <!-- post list -->
@@ -25,8 +21,10 @@ list_title: Auguri
         {{ post.title | escape }}
         </a>
     </h3>
-    {{ post.excerpt }}
-    {% include youtube-video.html video_id=post.video_id width='506' %}
+    {%- if site.show_excerpts -%}
+      {{ post.excerpt }}
+    {%- endif -%}    
+    {% include youtube-video.html video_id=post.video_id width='100%' %}
   {%- endfor -%}
 
 <!-- pagination -->
@@ -55,3 +53,8 @@ list_title: Auguri
   {% endif %}
 </div>
 {% endif %}
+
+<hr/>
+
+<p> Vi invito a contattarmi a <a href="mailto:trentesimobea@gmail.com">trentesimobea@gmail.com</a> per inviare un video di auguri.</p>
+<p> Qualora il video fosse troppo grande da inviare via email, posso inviarvi un link Google Drive per darvi accesso immediato a una cartella condivisa</p>

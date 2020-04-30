@@ -7,7 +7,7 @@ categories: famiglia
 tag: memory
 author: Enzo
 # preview_img: /img/posts/gravidanza-svedese-3.jpg
-period: 2009-03
+period: 1999-03
 excerpt: Un ricordo in rima.
 ---
 

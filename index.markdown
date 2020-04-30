@@ -53,7 +53,7 @@ Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.
 </div>
 
 <div class="card">
-  {% include youtube-video.html video_id='A4bJXsw4mHU' width='100%' %}
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/videoseries?list=PLvQTBXFzxXddfnNUwvuGbznPKmfSa-ho6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div class="container">
     <h4><b><a href="/auguri">Video Auguri</a></b></h4> 
     <p style="font-weight: bold;">Entro fine maggio</p>
@@ -69,5 +69,7 @@ Ho creato l'indirizzo mail [trentesimobea@gmail.com](mailto:trentesimobea@gmail.
 Sarei davvero proprio lieto di raccogliere molti aneddoti (magari anche con fotografie) delle varie epoche.
 
 Per quanto riguarda i video, confesso di non essere in grado di usare programmi per il montaggio/post produzione. Inoltre, lavorando da casa, sto con Bea giorno e notte (poverina). Se qualcuno di voi è disponibile, sarò più che felice di ricevere una mano per unire i messaggi di auguri in modo carino.
+
+{% include youtube-video.html video_id='mxVKLeTcYJg' width='100%' %}
 
 Vi pregherei inoltre di contattare altre persone che non ho mai conosciuto che possano avere un ricordo carino e significativo. Sono certo che le farà piacere ricevere anche qualche augurio inatteso!
