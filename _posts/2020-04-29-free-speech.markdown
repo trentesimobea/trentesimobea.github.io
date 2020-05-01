@@ -9,6 +9,7 @@ author: Enzo
 # preview_img: /img/posts/gravidanza-svedese-3.jpg
 period: 1999-03
 excerpt: Un ricordo in rima.
+badge: ricordo
 ---
 
 Era l’anno dei trenta. 

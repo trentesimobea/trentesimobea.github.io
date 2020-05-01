@@ -9,6 +9,7 @@ author: Mauro
 preview_img: /img/posts/gravidanza-svedese-3.jpg
 period: 2015-06
 excerpt: Sorpresa. I festeggiamenti per i suoi 25 anni organizzati a sua insaputa (giugno 2015).
+badge: racconto
 ---
 
 I primi mesi di gravidanza furono caratterizzati da un umore altalenante e da continui andirivieni dovuti principalmente alla preparazione degli esami universitari e a un malore occorso allo zio nel corso del mese di febbraio.

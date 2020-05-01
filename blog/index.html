@@ -7,7 +7,7 @@ pagination:
   sort_field: 'time' # 'period'
   sort_reverse: true # false
   per_page: 3
-list_title: Racconti
+list_title: Ricordi e Racconti
 ---
 
 <p class="post-list-heading header-level-2" style="text-align:center;">{{ page.list_title | default: "Posts" }}</p>
@@ -22,8 +22,12 @@ list_title: Racconti
         {{ post.title | escape }}
       </a>
     </h3>
+    {% if post.badge %}
+      <span class="badge badge-{{ post.badge }}">{{ post.badge }}</span>
+    {% endif %}
     <em>{{ post.date | date: site.date_format }} - {{ post.author}}</em>
     <p class="post-meta">{{ post.excerpt }}</p>
+    <br/>
    </li>
   {%- endfor -%}
 </ul>

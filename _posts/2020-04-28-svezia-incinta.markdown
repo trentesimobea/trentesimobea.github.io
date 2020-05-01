@@ -9,6 +9,7 @@ author: Mauro
 preview_img: /img/posts/gravidanza-svedese-3.jpg
 period: 2015-03
 excerpt: Immaginazione. Il nostro arrivo a Stoccolma fu segnato dalla notizia dell'arrivo di Giacomo. Un breve spaccato della primavera 2015.
+badge: racconto
 ---
 
 Il trasferimento a Stoccolma dall'Ungheria ebbe un impatto molto forte sulla nostra relazione.

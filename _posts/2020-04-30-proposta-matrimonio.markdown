@@ -9,6 +9,7 @@ author: Mauro
 preview_img: /img/posts/proposta-matrimonio-5.jpg
 period: 2015-09
 excerpt: Perseveranza. Repetita iuvant. Agosto 2015.
+badge: racconto
 ---
 
 Una caratteristica che non mi manca è certamente l'essere pedante e perseverante. Dopo aver insistito ad oltranza per poter ottenere un primo appuntamento, arrivò il momento della proposta di matrimonio.

@@ -9,6 +9,7 @@ author: Betta
 preview_img: /img/posts/pensierini.jpg
 period: 2015-03
 # excerpt: Un ricordo in rima.
+badge: ricordo
 ---
 
 Ricordo molto bene quando, mentre ancora ero nel letto dell’ospedale con un piccolo Pietro nuovo nuovo, mi è arrivata una foto da Mauro: un test di gravidanza e poche parole - molto emozionate! 

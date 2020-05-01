@@ -5,10 +5,11 @@ description: Raccontiamola
 date:   2020-05-01 13:21:01 +0200
 categories: blog
 tag: memory
-author: Marilena "del negozio"
+author: Marilena « del negozio »
 preview_img: /img/posts/marilena-1.jpg
 period: 1990-01
 excerpt: Dolci parole da chi ti ha conosciuta quando ancora eri nella pancia di tua mamma
+badge: ricordo
 ---
 Ciao,
 
