@@ -24,6 +24,7 @@
     padding: 2px 16px;
 }
 
+/* Posts Styles */
 /* Badge */
 .badge {
     display: inline-block;
@@ -48,8 +49,18 @@
     background-color: #5b7f98;
 }
 
+/* Author */
 .ribbon-inner > span.post-author {
     color: #ece4d8;
     font-size: inherit;
     font-weight: bold;
+}
+
+/* Miniature */
+.post-miniature {
+    width: 40%;
+    max-height: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
 }

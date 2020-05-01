@@ -6,7 +6,7 @@ date:   2020-04-29 14:34:25 +0200
 categories: famiglia
 tag: memory
 author: Mauro
-preview_img: /img/posts/gravidanza-svedese-3.jpg
+preview_img: /img/posts/venticinquesimo-3.jpg
 period: 2015-06
 excerpt: Sorpresa. I festeggiamenti per i suoi 25 anni organizzati a sua insaputa (giugno 2015).
 badge: racconto

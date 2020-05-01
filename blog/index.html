@@ -27,6 +27,9 @@ list_title: Ricordi e Racconti
     {% endif %}
     <em>{{ post.date | date: site.date_format }} - {{ post.author}}</em>
     <p class="post-meta">{{ post.excerpt }}</p>
+    {% if post.preview_img %}
+      <img class="post-miniature" src="{{ post.preview_img }}">
+    {% endif %}
     <br/>
    </li>
   {%- endfor -%}
