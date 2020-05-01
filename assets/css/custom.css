@@ -23,3 +23,44 @@
 .card > .container {
     padding: 2px 16px;
 }
+
+/* Posts Styles */
+/* Badge */
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    /*  font-size: 12px; */
+    font-weight: 700;
+    line-height: 1;
+    color: #ece4d8;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    /* background-color: #777; */
+    border-radius: 10px;
+}
+
+.badge-racconto {
+    background-color: #7c334f;
+}
+
+.badge-ricordo {
+    background-color: #5b7f98;
+}
+
+/* Author */
+.ribbon-inner > span.post-author {
+    color: #ece4d8;
+    font-size: inherit;
+    font-weight: bold;
+}
+
+/* Miniature */
+.post-miniature {
+    width: 40%;
+    max-height: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 10px;
+}
