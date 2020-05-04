@@ -29,7 +29,7 @@ badge: racconto
 </figure>
 <figure style="padding-bottom: 1em;">
     <img src="/img/posts/cinzia/27.jpg" alt="27.jpg" style="width: 100%;">
-    <figcaption>Con le tue amiche piemontesi</figcaption>
+    <figcaption>Con Franci e le vostra amica torinese</figcaption>
 </figure>
 <figure style="padding-bottom: 1em;">
     <img src="/img/posts/cinzia/30.jpg" alt="30.jpg" style="width: 100%;">
