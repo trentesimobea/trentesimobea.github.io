@@ -6,7 +6,7 @@ date:   2020-05-03 12:54:25 +0200
 categories: famiglia
 tag: memory
 author: Mauro
-preview_img: /img/posts/parto-0.jpeg
+preview_img: /img/posts/parto-10.jpeg
 period: 2015-11
 excerpt: Attesa. Nove mesi culminati in oltre 20 ore di travaglio.
 badge: racconto
