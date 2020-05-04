@@ -49,6 +49,12 @@
     background-color: #5b7f98;
 }
 
+.badge-blog {
+    background-color: #7eb0d2;
+    color: #5b7f98;
+    width: 100%;
+}
+
 /* Author */
 .ribbon-inner > span.post-author {
     color: #ece4d8;
