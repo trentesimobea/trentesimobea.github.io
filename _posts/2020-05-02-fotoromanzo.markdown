@@ -75,4 +75,6 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
 </figure>
 </div>
 
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
 Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famiglia/2020/05/02/fotoromanzo-3.html)

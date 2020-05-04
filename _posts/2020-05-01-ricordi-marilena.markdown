@@ -30,3 +30,5 @@ Con amore e tantissimi auguri...
 Marilena
 
 ❤ e 30 steli di 🌹
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

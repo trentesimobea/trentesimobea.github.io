@@ -29,3 +29,5 @@ badge: ricordo
 
 ![roller](/img/posts/enzo-1.jpg)
 ![monopattino](/img/posts/enzo-2.jpg)
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

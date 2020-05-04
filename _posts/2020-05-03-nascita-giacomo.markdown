@@ -53,3 +53,7 @@ Infine, il terzo volto è evidentemente quello di Giacomo. Appena uscito dalla p
 ![parto-10](/img/posts/parto-10.jpg)
 
 Ma è questa fatica che oggi ci rende felici. In fondo, valeva proprio la pena di questa attesa.
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
+[La proposta di matrimonio](/famiglia/2020/04/30/proposta-matrimonio.html)

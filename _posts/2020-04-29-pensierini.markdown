@@ -28,3 +28,5 @@ Mille, mille e ancora mille dei nostri migliori auguri!
 Betta, Simone, Pietro e Davide
 
 ![mare](/img/posts/pensierini.jpg)
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

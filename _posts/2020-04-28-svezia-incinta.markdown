@@ -54,3 +54,7 @@ La prima foto che ho di lei agli inizi della gravidanza è del 19 aprile, circa 
 Ci siamo visti subito costretti a confrontarci sulle domande di fondo e i nostri valori più profondi. Abbiamo avuto la fortuna di trovarci subito in sintonia e questo ci ha uniti intrensicamente. Alcune incomprensioni e discussioni sono sorte a volte per discrepanze caratteriali e aspetti diversi del nostro passato, ma non è mai mancata una genuina disponibilità all'ascolto reciproca e la pazienza di coltivare il rapporto. E soprattutto condividiamo l'**immaginazione** che ha saputo trasformare questi momenti difficili nei primi passi di una serie di avventure che - persino noi - non ci saremmo proprio mai immaginati.
 
 ![bea-musona](/img/posts/gravidanza-svedese-3.jpg)
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
+[La nostra prima serata a Budapest](/famiglia/2020/04/26/budapest.html) | [Il venticinquesimo compleanno](/famiglia/2020/04/29/venticinquesimo.html)

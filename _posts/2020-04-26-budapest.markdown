@@ -39,3 +39,7 @@ Nel corso dei giorni seguenti, quando ormai era innamorata, riuscì pure a farle
 {% include youtube-video.html video_id='NLZQ-cBrraM' width='506' %}
 
 _Dicembre 2014_
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
+[I primi giorni di gravidanza svedese](/famiglia/2020/04/28/svezia-incinta.html)

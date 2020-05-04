@@ -52,3 +52,7 @@ Per festeggiare cenammo ristorante dell'hotel che avevamo prenotato in pensione 
 L'indomani ci trovammo in mezzo ad una manifestazione sportiva organizzata da Nordea. Distribuirono dei gadget che abbiamo avuto in disordine per casa per alcuni anni. Poco dopo il check-out abbiamo fatto ancora una passeggiata e preso un frullato nel piccolo porto in quella zona. Al ritorno non aveva più il broncio che la rendeva cupa il giorno prima.
 
 Una caratteristica di Beatrice è la volontà di essere sempre corteggiata. Il timore di sentirsi data per scontata impone molti rifiuti e pertanto le cose importanti vanno sudate. Fortunatemente ha trovato qualcuno che - pur essendo a volte pesante - non si da facilmente per vinto ed è ostinato quanto lei.
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
+[Il venticinquesimo compleanno](/famiglia/2020/04/29/venticinquesimo.html) | [La nascita di Giacomo](/famiglia/2020/05/03/nascita-giacomo.html) 

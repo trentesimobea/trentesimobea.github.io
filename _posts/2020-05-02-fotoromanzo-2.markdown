@@ -77,4 +77,6 @@ badge: racconto
 </figure>
 </div>
 
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
 [Parte 1](/famiglia/2020/05/02/fotoromanzo.html) | Parte 2 | [Parte 3](/famiglia/2020/05/02/fotoromanzo-3.html)

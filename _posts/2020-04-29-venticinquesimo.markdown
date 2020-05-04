@@ -37,3 +37,7 @@ L'indomani, giorno del suo compleanno, andammo a farer una passeggiata in città
 Alla fine di una cena molto gustosa, si presentarono con il dolce i suoi familiari. Dopo un brindisi e ancora tanta commozione, tornammo a casa e rimasi sorpreso dal diametro dei tuoi piedi e le caviglie gonfie.  
 
 Probabilmente questo è il mio primo ricordo di Beatrice sorpresa e stupita. Ad oggi mi pare una delle sorprese meglio riuscite e spero di rivedere presto quella commozione e gioia nei suoi occhi.
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
+
+[I primi giorni di gravidanza svedese](/famiglia/2020/04/28/svezia-incinta.html) | [La proposta di matrimonio](/famiglia/2020/04/30/proposta-matrimonio.html)
