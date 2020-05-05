@@ -36,7 +36,7 @@ Vidi lei, che agli occhi dei più poteva sembrare una _cicianebia_ acquisita con
 
 Nel corso dei giorni seguenti, quando ormai era innamorata, riuscì pure a farle indossare un paio di Crocs rosa!
 
-{% include youtube-video.html video_id='NLZQ-cBrraM' width='506' %}
+{% include youtube-video.html video_id='NLZQ-cBrraM' width='100%' %}
 
 _Dicembre 2014_
 

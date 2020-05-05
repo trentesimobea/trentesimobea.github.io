@@ -56,4 +56,4 @@ Ma è questa fatica che oggi ci rende felici. In fondo, valeva proprio la pena d
 
 <a href="/blog"><span class="badge badge-blog">Blog</span></a>
 
-[La proposta di matrimonio](/famiglia/2020/04/30/proposta-matrimonio.html)
+[La proposta di matrimonio](/famiglia/2020/04/30/proposta-matrimonio.html) | [I primi mesi vissuti in famiglia](/famiglia/2020/05/05/trasloco-vigevano.html)
