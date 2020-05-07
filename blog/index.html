@@ -15,8 +15,6 @@ list_title: Ricordi e Racconti
   <!-- post list -->
   {% for post in paginator.posts %}
   <li>
-    <!--{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}-->
-    <!--span class="post-meta">{{ post.date | date: date_format }}</span-->
     <h3>
       <a class="post-link" href="{{ post.url | relative_url }}">
         {{ post.title | escape }}
@@ -72,10 +70,9 @@ list_title: Ricordi e Racconti
 
 <hr/>
 
-<p class="post-list-heading header-level-2" style="text-align:center;">Ricordi e Racconti Mauro</p>
+<p id="ricordi-mauro" class="post-list-heading header-level-2" style="text-align:center;">Ricordi e Racconti Mauro</p>
 <div class="container-fluid blue-bg">
   <div class="container">
-    <!--h2 class="pb-3 pt-2">Vertical Left-Right Timeline</h2-->
     {% assign my_posts = site.posts | where: "author", "Mauro" | sort: "date" %}
     {% assign my_index = 1 %}
     {% assign last_index = my_posts | size %}
@@ -83,7 +80,6 @@ list_title: Ricordi e Racconti
     {% for post in my_posts %}
     {% assign left = my_index | modulo: 2 %}
     {% if left == 1 %}
-    <!--first section-->
     
     <div class="row align-items-center how-it-works">
       {% if my_index == 1 %}
@@ -93,9 +89,7 @@ list_title: Ricordi e Racconti
       {% else %} 
       <div class="col-2 text-center full-left">
       {% endif %}
-      <!--div class="circle">{{ post.period | split: "-" | first }}</div-->
       <div class="circle" style="background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;"></div>
-
       </div>
       <div class="col-8">
         <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
@@ -143,8 +137,6 @@ list_title: Ricordi e Racconti
       <div class="col-2 text-center full-right">
       {% endif %}
         <div class="circle" style="background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;">
-          <!--{{ post.period | split: "-" | first }}-->
-          <!--img src="{{ post.preview_img }}" style="border-radius: 50%; width: 100%;"-->
       </div>
       </div>
     </div>
