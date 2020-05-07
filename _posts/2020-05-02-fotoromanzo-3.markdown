@@ -4,7 +4,7 @@ title:  Fotoromanzo Parte 3
 description: Raccontiamola
 date:   2020-05-02 19:32:01 +0200
 categories: famiglia
-tag: memory
+tag: memory-bis
 author: Cinzia
 preview_img: /img/posts/cinzia/28-sfilata.jpg
 period: 1990-01

@@ -4,7 +4,7 @@ title:  I ricordi di Marilena
 description: Raccontiamola
 date:   2020-05-01 13:21:01 +0200
 categories: blog
-tag: memory
+tag: memory-bis
 author: Marilena « del negozio »
 preview_img: /img/posts/marilena-1.jpg
 period: 1990-01

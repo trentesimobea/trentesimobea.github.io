@@ -4,7 +4,7 @@ title:  Da trenta a trenta
 description: Raccontiamola
 date:   2020-04-29 21:19:25 +0200
 categories: blog
-tag: memory
+tag: memory-bis
 author: Enzo
 preview_img: /img/posts/enzo-2.jpg
 period: 1999-03

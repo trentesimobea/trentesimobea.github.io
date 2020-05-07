@@ -4,7 +4,7 @@ title:  Pensierini
 description: Raccontiamola
 date:   2020-04-29 21:48:25 +0200
 categories: amici
-tag: memory
+tag: memory-bis
 author: Betta
 preview_img: /img/posts/pensierini.jpg
 period: 2015-03
