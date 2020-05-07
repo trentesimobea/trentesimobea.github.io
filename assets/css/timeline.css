@@ -206,18 +206,26 @@ body {
 }
 
 .timeline .left-bottom {
-  left: calc(1px - 66%);
+  left: -67%;
   top: calc(50% - 3px);
 }
 
 .timeline .top-left {
+  /*
   left: -50%;
   top: -50%;
+  */
+  left: -67%;
+  top: -66%;
 }
 
 .timeline .right-bottom {
-  left: 50%;
-  top: calc(50% - 3px);
+  /*
+    left: 50%;
+    top: calc(50% - 3px);
+  */
+  left: calc(65% + 1px);
+  top: calc(50% + -3px);
 }
 
 .blue-bg h5, .h5 {
@@ -249,4 +257,30 @@ body {
   height: 50%;
   left: calc(50% - 3px);
   top: 0;
+}
+
+@media handheld, only screen and (max-device-width:640px) {
+  .timeline .top-right {
+    left: 65%;
+    top: -65%;
+  }
+
+  .timeline .left-bottom {
+    left: calc(1px - 66%);
+    top: calc(50% - 3px);
+  }
+  
+  .timeline .top-left {
+    left: -65%;
+    top: -64%;
+  }
+  
+  .timeline .right-bottom {
+    left: 65%;
+    top: calc(50% + -3px);
+  }
+
+  .timeline hr {
+    height: 48px;
+  }
 }

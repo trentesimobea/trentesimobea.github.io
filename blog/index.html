@@ -69,9 +69,10 @@ list_title: Ricordi e Racconti
 
 <hr/>
 
+<p class="post-list-heading header-level-2" style="text-align:center;">Ricordi e Racconti Mauro</p>
 <div class="container-fluid blue-bg">
   <div class="container">
-    <h2 class="pb-3 pt-2">Vertical Left-Right Timeline</h2>
+    <!--h2 class="pb-3 pt-2">Vertical Left-Right Timeline</h2-->
     {% assign my_posts = site.posts | where: "author", "Mauro" | sort: "date" %}
     {% assign my_index = 1 %}
     {% assign last_index = my_posts | size %}
@@ -96,7 +97,7 @@ list_title: Ricordi e Racconti
         <p>{{ post.excerpt }}</p>
         {% if post.preview_img %}
         <img class="post-miniature" src="{{ post.preview_img }}">
-      {% endif %}
+        {% endif %}
       </div>
     </div>
     {% if my_index == last_index %}
@@ -121,13 +122,19 @@ list_title: Ricordi e Racconti
       <div class="col-8 text-right">
         <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
         <p>{{ post.excerpt }}</p>
+        {% if false %}
+        <img class="post-miniature" src="{{ post.preview_img }}">
+        {% endif %}
       </div>
       {% if my_index == last_index %}
       <div class="col-2 text-center top-right">
       {% else %} 
       <div class="col-2 text-center full-right">
       {% endif %}
-        <div class="circle">{{ post.period | split: "-" | first }}</div>
+        <div class="circle" style="background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;">
+          <!--{{ post.period | split: "-" | first }}-->
+          <!--img src="{{ post.preview_img }}" style="border-radius: 50%; width: 100%;"-->
+      </div>
       </div>
     </div>
 
