@@ -8,7 +8,7 @@ tag: memory
 author: Mauro
 preview_img: /img/posts/proposta-matrimonio-5.jpg
 period: 2015-09
-excerpt: Perseveranza. Repetita iuvant. Agosto 2015.
+excerpt: Perseveranza. Repetita iuvant. Nell'agosto 2015 arriva il tanto atteso sì.
 badge: racconto
 ---
 

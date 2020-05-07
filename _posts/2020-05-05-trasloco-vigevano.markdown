@@ -8,7 +8,7 @@ tag: memory
 author: Mauro
 preview_img: /img/posts/vigevano-4.jpg
 period: 2015-12
-excerpt: Sospesi. Il rientro in Italia fu accompagnato da nuove amicizie e nuove passioni. IL tutto a cavallo tra Vigevano e Bergamo.
+excerpt: Nomadismo. Il rientro in Italia fu accompagnato da nuove amicizie e nuove passioni. Il tutto a cavallo tra Vigevano e Bergamo.
 badge: racconto
 ---
 

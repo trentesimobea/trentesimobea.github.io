@@ -26,8 +26,11 @@ list_title: Ricordi e Racconti
       <span class="badge badge-{{ post.badge }}">{{ post.badge }}</span>
     {% endif %}
     <em>{{ post.date | date: site.date_format }} - {{ post.author}}</em>
-    <p class="post-meta">{{ post.excerpt }}</p>
-    {% if post.preview_img %}
+    <p class="post-meta">
+      {{ post.excerpt }}
+      <em><a href="{{ post.url | relative_url }}">Leggi</a></em>
+    </p>
+    {% if false %}
       <img class="post-miniature" src="{{ post.preview_img }}">
     {% endif %}
     <br/>
