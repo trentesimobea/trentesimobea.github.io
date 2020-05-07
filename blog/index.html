@@ -3,10 +3,10 @@ layout: blog
 description: Raccontiamola
 pagination:
   enabled: true
-  tag: memory
+  tag: memory-bis
   sort_field: 'time' # 'period'
   sort_reverse: true # false
-  per_page: 5
+  per_page: 3
 list_title: Ricordi e Racconti
 ---
 
@@ -90,12 +90,17 @@ list_title: Ricordi e Racconti
       {% else %} 
       <div class="col-2 text-center full-left">
       {% endif %}
-      <div class="circle">{{ post.period | split: "-" | first }}</div>
+      <!--div class="circle">{{ post.period | split: "-" | first }}</div-->
+      <div class="circle" style="background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;"></div>
+
       </div>
       <div class="col-8">
         <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-        <p>{{ post.excerpt }}</p>
-        {% if post.preview_img %}
+        <p>
+          {{ post.excerpt }}
+          <em><a href="{{ post.url | relative_url }}">Leggi</a></em>
+        </p>
+        {% if false %}
         <img class="post-miniature" src="{{ post.preview_img }}">
         {% endif %}
       </div>
@@ -121,7 +126,10 @@ list_title: Ricordi e Racconti
     <div class="row align-items-center justify-content-end how-it-works">
       <div class="col-8 text-right">
         <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-        <p>{{ post.excerpt }}</p>
+        <p>
+          {{ post.excerpt }}
+          <em><a href="{{ post.url | relative_url }}">Leggi</a></em>
+        </p>
         {% if false %}
         <img class="post-miniature" src="{{ post.preview_img }}">
         {% endif %}
