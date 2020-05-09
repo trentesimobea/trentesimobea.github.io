@@ -6,7 +6,7 @@ date:   2020-05-02 12:21:01 +0200
 categories: famiglia
 tag: memory
 author: Cinzia
-preview_img: /img/posts/cinzia/1-copertina.jpg
+preview_img: /img/posts/cinzia/13-asilo.jpg
 period: 1990-01
 excerpt: Una sequenza di ricordi della mamma di questi primi trent'anni insieme. Parte 1
 badge: racconto
