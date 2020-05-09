@@ -1,0 +1,12 @@
+---
+layout: post
+title:  Auguri da Melody
+description: Festeggiamola
+date:   2020-05-09 12:04:21 +0200
+author: Melody
+video_id: lHMutlPz7Rw
+---
+
+{% include youtube-video.html video_id=page.video_id %}
+
+![melo](/img/posts/melo.jpeg)
