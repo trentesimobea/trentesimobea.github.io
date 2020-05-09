@@ -73,8 +73,7 @@ list_title: Ricordi e Racconti
 {% assign cinzia = site.posts | where: "author", "Cinzia" | sort: "date" %}
 
 <p id="ricordi-cinzia" class="post-list-heading header-level-2" style="text-align:center;">Ricordi Mamma</p>
-{% include timeline.html posts=cinzia %}
-
+{% include posts-carousel.html posts=cinzia %}
 
 <hr/>
 
