@@ -4,7 +4,7 @@ title:  Fotoromanzo Parte 2
 description: Raccontiamola
 date:   2020-05-02 12:25:01 +0200
 categories: famiglia
-tag: memory-bis
+tag: memory
 author: Cinzia
 preview_img: /img/posts/cinzia/1-copertina.jpg
 period: 1990-01

@@ -70,88 +70,15 @@ list_title: Ricordi e Racconti
 
 <hr/>
 
-<p id="ricordi-mauro" class="post-list-heading header-level-2" style="text-align:center;">Ricordi e Racconti Mauro</p>
-<div class="container-fluid blue-bg">
-  <div class="container">
-    {% assign my_posts = site.posts | where: "author", "Mauro" | sort: "date" %}
-    {% assign my_index = 1 %}
-    {% assign last_index = my_posts | size %}
+{% assign cinzia = site.posts | where: "author", "Cinzia" | sort: "date" %}
 
-    {% for post in my_posts %}
-    {% assign left = my_index | modulo: 2 %}
-    {% if left == 1 %}
-    
-    <div class="row align-items-center how-it-works">
-      {% if my_index == 1 %}
-      <div class="col-2 text-center bottom">
-      {% elsif my_index == last_index  %}
-      <div class="col-2 text-center top-left">
-      {% else %} 
-      <div class="col-2 text-center full-left">
-      {% endif %}
-      <a class="circle" href="{{ post.url | relative_url }}" style="display:block; background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;"></a>
-      </div>
-      <div class="col-8">
-        <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-        <p>
-          {{ post.excerpt }}
-          <em><a href="{{ post.url | relative_url }}">Leggi</a></em>
-        </p>
-      </div>
-    </div>
-    {% if my_index == last_index %}
-    <h2>I am the last</h2>
-    {% else %}
-    <!--path between 1-2-->
-    <div class="row timeline">
-      <div class="col-2">
-        <div class="corner top-right"></div>
-      </div>
-      <div class="col-8">
-        <hr />
-      </div>
-      <div class="col-2">
-        <div class="corner left-bottom"></div>
-      </div>
-    </div>
-    {% endif %}
-    {% else %}
-    <!--second section-->
-    <div class="row align-items-center justify-content-end how-it-works">
-      <div class="col-8 text-right">
-        <p><a href="{{ post.url | relative_url }}">{{ post.title }}</a></p>
-        <p>
-          {{ post.excerpt }}
-          <em><a href="{{ post.url | relative_url }}">Leggi</a></em>
-        </p>
-      </div>
-      {% if my_index == last_index %}
-      <div class="col-2 text-center top-right">
-      {% else %} 
-      <div class="col-2 text-center full-right">
-      {% endif %}
-      <a class="circle" href="{{ post.url | relative_url }}" style="display:block; background-image: url('{{ post.preview_img }}'); background-size: cover; width: 50px; height: 50px;"></a>
-      </div>
-      </div>
-    </div>
+<p id="ricordi-cinzia" class="post-list-heading header-level-2" style="text-align:center;">Ricordi Mamma</p>
+{% include timeline.html posts=cinzia %}
 
-    {% if my_index == last_index %}
-    <!--path between 2-3-->
-    {% else %}
-    <div class="row timeline">
-      <div class="col-2">
-        <div class="corner right-bottom"></div>
-      </div>
-      <div class="col-8">
-        <hr />
-      </div>
-      <div class="col-2">
-        <div class="corner top-left"></div>
-      </div>
-    </div>
-    {% endif %}
-    {% endif %}
-    {% assign my_index = my_index | plus:1 %}
-    {% endfor %}
-  </div>
-</div>
+
+<hr/>
+
+{% assign mauro = site.posts | where: "author", "Mauro" | sort: "date" %}
+
+<p id="ricordi-mauro" class="post-list-heading header-level-2" style="text-align:center;">Racconti Mauro</p>
+{% include timeline.html posts=mauro %}
