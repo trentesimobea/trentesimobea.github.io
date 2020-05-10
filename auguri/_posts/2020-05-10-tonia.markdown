@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Auguri da Tonia
+description: Festeggiamola
+date:   2020-05-09 18:50:11 +0200
+author: Tonia
+video_id: YDapAUf31xg
+---
+
+{% include youtube-video.html video_id=page.video_id %}
