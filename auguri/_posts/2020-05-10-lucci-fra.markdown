@@ -1,0 +1,10 @@
+---
+layout: post
+title:  Auguri da Lucci e Fra
+description: Festeggiamola
+date:   2020-05-10 20:45:21 +0200
+author: Lucci e Fra
+video_id: 44vM8ucY_O0
+---
+
+{% include youtube-video.html video_id=page.video_id %}
