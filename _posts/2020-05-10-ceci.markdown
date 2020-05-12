@@ -1,0 +1,96 @@
+---
+layout: post
+title:  Auguri Bea!
+description: Raccontiamola
+date:   2020-05-10 22:02:01 +0200
+categories: blog
+tag: memory-bis
+author: Ceci Moioli
+preview_img: /img/posts/ceci_5.jpg
+period: 1996-09
+excerpt: Un'amicizia che dura da quasi 5 lustri.
+badge: ricordo
+pictures:
+    - path: /img/posts/ceci_8.jpg
+      caption: 
+    - path: /img/posts/ceci_5.jpg
+      caption: 
+    - path: /img/posts/ceci_0.jpg
+      caption: 
+    - path: /img/posts/ceci_1.jpg
+      caption: 
+    - path: /img/posts/ceci_2.jpg
+      caption: 
+    - path: /img/posts/ceci_3.jpg
+      caption: 
+    - path: /img/posts/ceci_4.jpg
+      caption: 
+    - path: /img/posts/ceci_7.jpg
+      caption: 
+    - path: /img/posts/ceci_6.jpg
+      caption: 
+---
+
+Cara Bea,
+
+per il tuo trentesimo compleanno ho pensato di mandarti un po' di reperti storici della nostra infanzia...
+
+È incredibile, siamo amiche dal 1996... Ne è passato di tempo!!!
+
+La mia foto preferita è quella vestite da carnevale, all'inizio non ero sicura che quella vestita di peluche rosso fossi tu, ma mia mamma sostiene di sì!! 😂😂
+
+Insomma, siamo amiche da più di 20 anni e anche se siamo lontane, anche se abbiamo avuto dei momenti di amore e odio, anche se non siamo sempre state vicine come avremmo voluto, una cosa è certa: tu per me sei un punto fermo e un'amica su cui poter contare sempre e per sempre!!
+
+Ti voglio bene bibuz, goditi questi 30 anni con tutta la tua meravigliosa pazza family... 
+
+Spero di abbracciarti presto ❤️
+
+Un bacione grande
+
+Ceci 
+
+{% assign my_posts = page.pictures %}
+{% assign my_index = 1 %}
+{% assign last_index = my_posts | size %}
+
+{% assign previous_index = last_index %}
+
+<div class="carousel-wrapper" >
+<section class="carousel" aria-label="Gallery">
+    <ol class="carousel__viewport">
+        {% for post in my_posts %}
+        {% if my_index == last_index %}
+            {% assign next_index = 1 %}
+        {% else %}
+            {% assign next_index = my_index | plus:1 %}
+        {% endif %}
+        <li id="carousel__slide{{my_index}}" tabindex="0" class="carousel__slide"> <!-- style="background-image: url('{{ post.preview_img }}'); background-size: cover;" -->
+            <div class="carousel__snapper" style="overflow: hidden;">
+                <figure class="wp-caption" style="height: inherit; text-align:centered;">
+                    <img class="demo" src="{{ post.path }}" alt="Image" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;"/>
+                    <figcaption class="wp-caption-text" style="display:none;">
+                        {{ post.title }}
+                    </figcaption>
+                </figure>
+    
+                <a href="#carousel__slide{{previous_index}}" class="carousel__prev">Go to prev slide</a>
+                <a href="#carousel__slide{{next_index}}" class="carousel__next">Go to next slide</a>
+            </div>
+        </li>
+        {% assign previous_index = my_index %}
+        {% assign my_index = next_index %}
+        {% endfor %}
+    </ol>
+    <aside class="carousel__navigation">
+        <ol class="carousel__navigation-list">
+            {% assign idx = 1 %}
+            {% for post in my_posts %}
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide{{idx}}" class="carousel__navigation-button">Go to slide {{idx}}</a>
+                </li>
+            {% assign idx = idx | plus:1 %}
+            {% endfor %}
+        </ol>
+    </aside>
+</section>
+</div>
