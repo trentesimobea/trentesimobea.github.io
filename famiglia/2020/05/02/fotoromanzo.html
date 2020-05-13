@@ -23,7 +23,7 @@
 
     <meta property="og:image" content="https://trentesimobea.github.io/img/posts/cinzia/13-asilo.jpg">
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=da83a5f25ceb728d8defa721507234ecad46b2c5" media="screen">
+    <link rel="stylesheet" href="/assets/css/style.css?v=80ec5f1c42de2d0812afe77d677e20f8fc3bdef8" media="screen">
     <link rel="stylesheet" href="/assets/css/mobile.css" media="handheld, only screen and (max-device-width:640px)">
     <link rel="stylesheet" href="/assets/css/non-screen.css" media="handheld, only screen and (max-device-width:640px)">
   
@@ -88,10 +88,33 @@
 <p><br /></p>
 
 <style type="text/css">
+.wp-caption-custom {
+  height: inherit;
+  text-align:center;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.wp-caption .img-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.wp-caption .wp-caption-img {
+  border: none;
+  object-fit: contain;
+  max-width:100%;
+  max-height:100%;
+  margin: auto;
+}
+
 @media handheld, only screen and (max-device-width:640px) {
     .carousel-wrapper {
         height: 100vh;
-        max-height: 900px;
+        max-height: 600px;
+    }
+    .carousel::before, .carousel::after,
+    .carousel__prev, .carousel__next {
+      display: none;
     }
 }
 </style>
@@ -103,8 +126,10 @@
         
         <li id="carousel__slide" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/2-il-concepimento.jpg" alt="2-il-concepimento.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/2-il-concepimento.jpg" alt="2-il-concepimento.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         1. 14-01-89 Viaggio di nozze Isola St. Lucia (Caraibi)
                     </figcaption>
@@ -120,8 +145,10 @@
         
         <li id="carousel__slide1" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/3-attesa.jpg" alt="3-attesa.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/3-attesa.jpg" alt="3-attesa.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         2. Venezia all'ottavo mese d'attesa. Io e papà felici
                     </figcaption>
@@ -137,8 +164,10 @@
         
         <li id="carousel__slide2" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/4-appena-nata.jpg" alt="4-appena-nata.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/4-appena-nata.jpg" alt="4-appena-nata.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         3. Sei nata! peso kg. 2,920 e il giorno delle dimissioni kg. 2,720
                     </figcaption>
@@ -154,8 +183,10 @@
         
         <li id="carousel__slide3" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/5-battesimo.jpg" alt="5-battesimo.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/5-battesimo.jpg" alt="5-battesimo.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         4. Il tuo battesimo a Azzano S.Paolo
                     </figcaption>
@@ -171,8 +202,10 @@
         
         <li id="carousel__slide4" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/6-battesimo-coi-cugini.jpg" alt="6-battesimo-coi-cugini.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/6-battesimo-coi-cugini.jpg" alt="6-battesimo-coi-cugini.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         5. Foto con i parenti al tuo battesimo
                     </figcaption>
@@ -188,8 +221,10 @@
         
         <li id="carousel__slide5" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/7.jpg" alt="7.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/7.jpg" alt="7.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         6. Prime pappe
                     </figcaption>
@@ -205,8 +240,10 @@
         
         <li id="carousel__slide6" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/8.jpg" alt="8.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/8.jpg" alt="8.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         7. Prime passeggiate con mamma e papà
                     </figcaption>
@@ -222,8 +259,10 @@
         
         <li id="carousel__slide7" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/9-abluzioni.jpg" alt="9-abluzioni.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/9-abluzioni.jpg" alt="9-abluzioni.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         8. Primi bagnetti
                     </figcaption>
@@ -239,8 +278,10 @@
         
         <li id="carousel__slide8" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/10-alassio.jpg" alt="10-alassio.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/10-alassio.jpg" alt="10-alassio.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         9. Alassio a un anno
                     </figcaption>
@@ -256,8 +297,10 @@
         
         <li id="carousel__slide9" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/12-alassio-anno-dopo.jpg" alt="12-alassio-anno-dopo.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/12-alassio-anno-dopo.jpg" alt="12-alassio-anno-dopo.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         10. Alassio un anno dopo
                     </figcaption>
@@ -273,8 +316,10 @@
         
         <li id="carousel__slide10" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/13-asilo.jpg" alt="13-asilo.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/13-asilo.jpg" alt="13-asilo.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         11. Asilo Beata Capitanio a due anni
                     </figcaption>
@@ -290,8 +335,10 @@
         
         <li id="carousel__slide11" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/14-asilo.jpg" alt="14-asilo.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/14-asilo.jpg" alt="14-asilo.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         12. Asilo l'anno dopo
                     </figcaption>
@@ -307,8 +354,10 @@
         
         <li id="carousel__slide12" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="/img/posts/cinzia/15-alassio.jpg" alt="15-alassio.jpg" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;" />
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="/img/posts/cinzia/15-alassio.jpg" alt="15-alassio.jpg" />
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         13. Alassio con tutta la famiglia
                     </figcaption>
@@ -324,6 +373,71 @@
     </ol>
     <aside class="carousel__navigation">
         <ol class="carousel__navigation-list">
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide1" class="carousel__navigation-button">Go to slide 1</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide2" class="carousel__navigation-button">Go to slide 2</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide3" class="carousel__navigation-button">Go to slide 3</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide4" class="carousel__navigation-button">Go to slide 4</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide5" class="carousel__navigation-button">Go to slide 5</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide6" class="carousel__navigation-button">Go to slide 6</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide7" class="carousel__navigation-button">Go to slide 7</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide8" class="carousel__navigation-button">Go to slide 8</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide9" class="carousel__navigation-button">Go to slide 9</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide10" class="carousel__navigation-button">Go to slide 10</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide11" class="carousel__navigation-button">Go to slide 11</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide12" class="carousel__navigation-button">Go to slide 12</a>
+                </li>
+            
+            
+                <li class="carousel__navigation-item">
+                    <a href="#carousel__slide13" class="carousel__navigation-button">Go to slide 13</a>
+                </li>
             
             
         </ol>
