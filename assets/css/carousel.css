@@ -1,52 +1,5 @@
 /* Based on https://css-tricks.com/css-only-carousel/ */
 
-/*
-@keyframes tonext {
-    75% {
-        left: 0;
-    }
-    95% {
-        left: 100%;
-    }
-    98% {
-        left: 100%;
-    }
-    99% {
-        left: 0;
-    }
-}
-
-@keyframes tostart {
-    75% {
-        left: 0;
-    }
-    95% {
-        left: -300%;
-    }
-    98% {
-        left: -300%;
-    }
-    99% {
-        left: 0;
-    }
-}
-
-@keyframes snap {
-    96% {
-        scroll-snap-align: center;
-    }
-    97% {
-        scroll-snap-align: none;
-    }
-    99% {
-        scroll-snap-align: none;
-    }
-    100% {
-        scroll-snap-align: center;
-    }
-}
-*/
-
 .carousel-wrapper {
     max-width: 37.5rem;
     margin: 0 auto;
@@ -57,7 +10,6 @@
 .carousel-wrapper * {
     box-sizing: border-box;
     scrollbar-color: transparent transparent;
-    /* thumb and track color */
     scrollbar-width: 0px;
 }
 
@@ -108,18 +60,10 @@ ol, li {
     position: relative;
     flex: 0 0 100%;
     width: 100%;
-    /*background-color: #f99;*/
     counter-increment: item;
 }
 
-/*
-.carousel__slide:nth-child(even) {
-    background-color: #99f;
-}
-*/
-
 .carousel__slide:before {
-    /*content: counter(item);*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -136,30 +80,6 @@ ol, li {
     height: 100%;
     scroll-snap-align: center;
 }
-
-/*
-@media (hover: hover) {
-    .carousel__snapper {
-        animation-name: tonext, snap;
-        animation-timing-function: ease;
-        animation-duration: 4s;
-        animation-iteration-count: infinite;
-    }
-    .carousel__slide:last-child .carousel__snapper {
-        animation-name: tostart, snap;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .carousel__snapper {
-        animation-name: none;
-    }
-}
-
-.carousel:hover .carousel__snapper, .carousel:focus-within .carousel__snapper {
-    animation-name: none;
-}
-*/
 
 .carousel__navigation {
     position: absolute;
@@ -227,41 +147,13 @@ ol, li {
     background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 
-/*
-@media handheld, only screen and (max-device-width:640px) {
-    .carousel::before, .carousel__prev, .carousel::after, .carousel__next {
-        display: none;
-    }
-}
-*/
 /* https://www.designlabthemes.com/text-over-image-with-css/ */
-
-/*
-.wp-caption {
-    position: relative;
-    padding: 0;
-    margin: 0;
-}
-*/
 
 .wp-caption img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-
-/*
-.wp-caption:after {
-    content: "";
-    position: absolute;
-    display: block;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(0, 0, 0, 0) 0px, rgba(0, 0, 0, 0.6) 100%) repeat 0 0;
-    /*z-index: 1;
-}*/
 
 .wp-caption-text {
     display: block;
@@ -272,7 +164,6 @@ ol, li {
     bottom: 0;
     padding: 1em;
     font-weight: 700;
-    /*z-index: 2;*/
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
     background-color: #333;
@@ -282,4 +173,35 @@ ol, li {
 .wp-caption-text a {
     color: #ece4d8;
     opacity: 1;
+}
+
+/* custom styles */
+
+.wp-caption-custom {
+    height: inherit;
+    text-align: center;
+    background-color: rgba(51, 51, 51, 0.8);
+}
+
+.wp-caption .img-wrapper {
+    display: flex;
+    height: 100%;
+}
+
+.wp-caption .wp-caption-img {
+    border: none;
+    object-fit: contain;
+    max-width: 100%;
+    max-height: 100%;
+    margin: auto;
+}
+
+@media handheld, only screen and (max-device-width:640px) {
+    .carousel-wrapper {
+        height: 100vh;
+        max-height: 600px;
+    }
+    .carousel::before, .carousel::after, .carousel__prev, .carousel__next {
+        display: none;
+    }
 }
