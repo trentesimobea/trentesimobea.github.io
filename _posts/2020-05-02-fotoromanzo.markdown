@@ -58,14 +58,38 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
 <br/>
 
 <style type="text/css">
+.wp-caption-custom {
+  height: inherit;
+  text-align:center;
+  background-color: rgba(51, 51, 51, 0.8);
+}
+
+.wp-caption .img-wrapper {
+  display: flex;
+  height: 100%;
+}
+
+.wp-caption .wp-caption-img {
+  border: none;
+  object-fit: contain;
+  max-width:100%;
+  max-height:100%;
+  margin: auto;
+}
+
 @media handheld, only screen and (max-device-width:640px) {
     .carousel-wrapper {
         height: 100vh;
-        max-height: 900px;
+        max-height: 600px;
+    }
+    .carousel::before, .carousel::after,
+    .carousel__prev, .carousel__next {
+      display: none;
     }
 }
 </style>
 
+{% assign last_index = page.pictures | size %}
 <div class="carousel-wrapper">
 <section class="carousel" aria-label="Gallery" style="height: 100%;">
     <ol class="carousel__viewport">
@@ -77,8 +101,10 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
         {% endif %}
         <li id="carousel__slide{{my_index}}" tabindex="0" class="carousel__slide">
             <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption" style="height: inherit; text-align:centered;background-color:#333;">
-                    <img class="demo" src="{{ pic.path }}" alt="{{ pic.alt }}" style="border: none; object-fit: contain; max-width:100%; max-height:100%; vertical-align: middle; margin-left: auto; margin-right: auto;"/>
+                <figure class="wp-caption wp-caption-custom">
+                    <div class="img-wrapper">
+                      <img class="wp-caption-img" src="{{ pic.path }}" alt="{{ pic.alt }}"/>
+                    </div>
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
                         {{next_index}}. {{ pic.caption }}
                     </figcaption>
@@ -95,7 +121,7 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
     <aside class="carousel__navigation">
         <ol class="carousel__navigation-list">
             {% assign idx = 1 %}
-            {% for post in my_posts %}
+            {% for pic in page.pictures %}
                 <li class="carousel__navigation-item">
                     <a href="#carousel__slide{{idx}}" class="carousel__navigation-button">Go to slide {{idx}}</a>
                 </li>
