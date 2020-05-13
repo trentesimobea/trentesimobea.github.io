@@ -57,48 +57,7 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
 <p>Tanti auguri per il tuo trentesimo compleanno!</p>
 <br/>
 
-{% assign last_index = page.pictures | size %}
-<div class="carousel-wrapper">
-<section class="carousel" aria-label="Gallery" style="height: 100%;">
-    <ol class="carousel__viewport">
-        {% for pic in page.pictures %}
-        {% if my_index == last_index %}
-            {% assign next_index = 1 %}
-        {% else %}
-            {% assign next_index = my_index | plus:1 %}
-        {% endif %}
-        <li id="carousel__slide{{my_index}}" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption wp-caption-custom">
-                    <div class="img-wrapper">
-                      <img class="wp-caption-img" src="{{ pic.path }}" alt="{{ pic.alt }}"/>
-                    </div>
-                    <figcaption class="wp-caption-text" style="line-height: 1em;">
-                        {{next_index}}. {{ pic.caption }}
-                    </figcaption>
-                </figure>
-    
-                <a href="#carousel__slide{{previous_index}}" class="carousel__prev">Go to prev slide</a>
-                <a href="#carousel__slide{{next_index}}" class="carousel__next">Go to next slide</a>
-            </div>
-        </li>
-        {% assign previous_index = my_index %}
-        {% assign my_index = next_index %}
-        {% endfor %}
-    </ol>
-    <aside class="carousel__navigation">
-        <ol class="carousel__navigation-list">
-            {% assign idx = 1 %}
-            {% for pic in page.pictures %}
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide{{idx}}" class="carousel__navigation-button">Go to slide {{idx}}</a>
-                </li>
-            {% assign idx = idx | plus:1 %}
-            {% endfor %}
-        </ol>
-    </aside>
-</section>
-</div>
+{% include carousel.html pictures=page.pictures %}
 
 <br/>
 

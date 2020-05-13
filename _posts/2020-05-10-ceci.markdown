@@ -51,48 +51,6 @@ Ceci
 
 <br/>
 
-{% assign my_posts = page.pictures %}
-{% assign my_index = 1 %}
-{% assign last_index = my_posts | size %}
+{% include carousel.html pictures=page.pictures %}
 
-{% assign previous_index = last_index %}
-
-<div class="carousel-wrapper" >
-<section class="carousel" aria-label="Gallery">
-    <ol class="carousel__viewport">
-        {% for post in my_posts %}
-        {% if my_index == last_index %}
-            {% assign next_index = 1 %}
-        {% else %}
-            {% assign next_index = my_index | plus:1 %}
-        {% endif %}
-        <li id="carousel__slide{{my_index}}" tabindex="0" class="carousel__slide">
-            <div class="carousel__snapper" style="overflow: hidden;">
-                <figure class="wp-caption wp-caption-custom">
-                    <div class="img-wrapper"><img class="wp-caption-img" src="{{ post.path }}" alt="Image"/> </div>
-                    <figcaption class="wp-caption-text" style="display:none;">
-                        {{ post.title }}
-                    </figcaption>
-                </figure>
-    
-                <a href="#carousel__slide{{previous_index}}" class="carousel__prev">Go to prev slide</a>
-                <a href="#carousel__slide{{next_index}}" class="carousel__next">Go to next slide</a>
-            </div>
-        </li>
-        {% assign previous_index = my_index %}
-        {% assign my_index = next_index %}
-        {% endfor %}
-    </ol>
-    <aside class="carousel__navigation">
-        <ol class="carousel__navigation-list">
-            {% assign idx = 1 %}
-            {% for post in my_posts %}
-                <li class="carousel__navigation-item">
-                    <a href="#carousel__slide{{idx}}" class="carousel__navigation-button">Go to slide {{idx}}</a>
-                </li>
-            {% assign idx = idx | plus:1 %}
-            {% endfor %}
-        </ol>
-    </aside>
-</section>
-</div>
+<br/>
