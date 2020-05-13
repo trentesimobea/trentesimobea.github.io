@@ -1,5 +1,7 @@
 {% assign pictures = include.pictures %}
-{% assign last_index = pictures | size %}
+{% assign initial_index = include.initial_index | default: 1 %}
+{% assign last_index = pictures | size | minus: 1 %}
+{% assign previous_index = last_index %}
 <div class="carousel-wrapper">
 <section class="carousel" aria-label="Gallery" style="height: 100%;">
     <ol class="carousel__viewport">
@@ -17,7 +19,7 @@
                     </div>
                     {% if pic.caption %}
                     <figcaption class="wp-caption-text" style="line-height: 1em;">
-                        {{next_index}}. {{ pic.caption }}
+                        {{my_index | plus: initial_index}}. {{ pic.caption }}
                     </figcaption>
                     {% endif %}
                 </figure>

@@ -10,72 +10,61 @@ preview_img: /img/posts/cinzia/21-adolescenza.jpg
 period: 1990-01
 excerpt: Una sequenza di ricordi della mamma di questi primi trent'anni insieme. Parte 2
 badge: racconto
+pictures:
+  - path: /img/posts/cinzia/16-via-autostrada.jpg
+    alt: 16-via-autostrada.jpg
+    caption: In via Autostrada per i tuoi 5 anni
+  - path: /img/posts/cinzia/17-settimo-compleanno.jpg
+    alt: 17-settimo-compleanno.jpg
+    caption: Settimo compleanno dai nonni
+  - path: /img/posts/cinzia/18-francesca.jpg
+    alt: 18-francesca.jpg
+    caption: Sardegna con Francesca a 12 anni
+  - path: /img/posts/cinzia/19-comunione.jpg
+    alt: 19-comunione.jpg
+    caption: Comunione
+  - path: /img/posts/cinzia/20-cresima.jpg
+    alt: 20-cresima.jpg
+    caption: Cresima
+  - path: /img/posts/cinzia/21-adolescenza.jpg
+    alt: 21-adolescenza.jpg
+    caption: Età della stupidera
+  - path: /img/posts/cinzia/jgo0002.jpg
+    alt: 22-cavallo.jpg
+    caption: Con la mamma e il papà
+  - path: /img/posts/cinzia/22-cavallo.jpg
+    alt: 22-cavallo.jpg
+    caption: Una delle tue gare equestri
+  - path: /img/posts/cinzia/22-cre.jpg
+    alt: 22-cre.jpg
+    caption: C.R.E da Don Fabio
+  - path: /img/posts/cinzia/22-riccione-2.jpg
+    alt: 22-riccione-2.jpg
+    caption: Riccione prima vacanza con mamma e nonna
+  - path: /img/posts/cinzia/24.jpg
+    alt: 24.jpg
+    caption: Durante il liceo a casa in Piazza Pontida
+  - path: /img/posts/cinzia/sa.jpg
+    alt: 24.jpg
+    caption: Liceo
+  - path: /img/posts/cinzia/25.jpg
+    alt: 25.jpg
+    caption: Tesserino del liceo
+  - path: /img/posts/cinzia/25-liceo.jpg
+    alt: 25-liceo.jpg
+    caption: Primi tempi senza papà
+  - path: /img/posts/cinzia/26-con-franci.jpg
+    alt: 26-con-franci.jpg
+    caption: Baia Sardinia
 ---
 
 [Parte 1](/famiglia/2020/05/02/fotoromanzo.html) | Parte 2 | [Parte 3](/famiglia/2020/05/02/fotoromanzo-3.html)
 
-<div>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/16-via-autostrada.jpg" alt="16-via-autostrada.jpg" style="width: 100%;">
-    <figcaption>In via Autostrada per i tuoi 5 anni</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/17-settimo-compleanno.jpg" alt="17-settimo-compleanno.jpg" style="width: 100%;">
-    <figcaption>Settimo compleanno dai nonni</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/18-francesca.jpg" alt="18-francesca.jpg" style="width: 100%;">
-    <figcaption>Sardegna con Francesca a 12 anni</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/19-comunione.jpg" alt="19-comunione.jpg" style="width: 100%;">
-    <figcaption>Comunione</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/20-cresima.jpg" alt="20-cresima.jpg" style="width: 100%;">
-    <figcaption>Cresima</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/21-adolescenza.jpg" alt="21-adolescenza.jpg" style="width: 100%;">
-    <figcaption>Età della stupidera</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/jgo0002.jpg" alt="22-cavallo.jpg" style="width: 100%;">
-    <figcaption>Con la mamma e il papà</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/22-cavallo.jpg" alt="22-cavallo.jpg" style="width: 100%;">
-    <figcaption>Una delle tue gare equestri</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/22-cre.jpg" alt="22-cre.jpg" style="width: 100%;">
-    <figcaption>C.R.E da Don Fabio</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/22-riccione-2.jpg" alt="22-riccione-2.jpg" style="width: 100%;">
-    <figcaption>Riccione prima vacanza con mamma e nonna</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/24.jpg" alt="24.jpg" style="width: 100%;">
-    <figcaption>Durante il liceo a casa in Piazza Pontida</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/sa.jpg" alt="24.jpg" style="width: 100%;">
-    <figcaption>Liceo</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/25.jpg" alt="25.jpg" style="width: 100%;">
-    <figcaption>Tesserino del liceo</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/25-liceo.jpg" alt="25-liceo.jpg" style="width: 100%;">
-    <figcaption>Primi tempi senza papà</figcaption>
-</figure>
-<figure style="padding-bottom: 1em;">
-    <img src="/img/posts/cinzia/26-con-franci.jpg" alt="26-con-franci.jpg" style="width: 100%;">
-    <figcaption>Baia Sardinia</figcaption>
-</figure>
-</div>
+<br/>
+
+{% include carousel.html pictures=page.pictures initial_index=14 %}
+
+<br/>
 
 <a href="/blog"><span class="badge badge-blog">Blog</span></a>
 
