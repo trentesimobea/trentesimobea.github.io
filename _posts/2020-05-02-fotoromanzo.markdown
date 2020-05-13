@@ -57,38 +57,6 @@ Parte 1 | [Parte 2](/famiglia/2020/05/02/fotoromanzo-2.html) | [Parte 3](/famigl
 <p>Tanti auguri per il tuo trentesimo compleanno!</p>
 <br/>
 
-<style type="text/css">
-.wp-caption-custom {
-  height: inherit;
-  text-align:center;
-  background-color: rgba(51, 51, 51, 0.8);
-}
-
-.wp-caption .img-wrapper {
-  display: flex;
-  height: 100%;
-}
-
-.wp-caption .wp-caption-img {
-  border: none;
-  object-fit: contain;
-  max-width:100%;
-  max-height:100%;
-  margin: auto;
-}
-
-@media handheld, only screen and (max-device-width:640px) {
-    .carousel-wrapper {
-        height: 100vh;
-        max-height: 600px;
-    }
-    .carousel::before, .carousel::after,
-    .carousel__prev, .carousel__next {
-      display: none;
-    }
-}
-</style>
-
 {% assign last_index = page.pictures | size %}
 <div class="carousel-wrapper">
 <section class="carousel" aria-label="Gallery" style="height: 100%;">
