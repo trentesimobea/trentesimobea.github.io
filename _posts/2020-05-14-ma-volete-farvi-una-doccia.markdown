@@ -26,3 +26,5 @@ Quindi grazie Bea. Per averci ospitate nonostante ci conoscessi poco, ma sopratt
 Tanti auguri!
 
 Cami e Zibo
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

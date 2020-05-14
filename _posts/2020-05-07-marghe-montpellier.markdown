@@ -23,3 +23,5 @@ Poi ci siamo parlate davanti a scuola ed ho davvero apprezzato questa ragazza se
 Ti auguro uno splendido trentesimo Bea, ti voglio bene!
 
 ![bea-dicembre](/img/posts/bea-dec-19.jpeg)
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

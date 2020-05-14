@@ -54,3 +54,5 @@ Ceci
 {% include carousel.html pictures=page.pictures %}
 
 <br/>
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

@@ -25,3 +25,5 @@ Abbiamo bei ricordi di Bea a quei tempi: le risate ed anche - a volte - discorsi
 un ABBRACCIO  💟
 
 Lory
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>

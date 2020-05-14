@@ -25,3 +25,5 @@ Bea, all’alba dei tuoi trent’anni sei già una grandissima donna e una magni
 Buon compleanno,
 
 Francesca 
+
+<a href="/blog"><span class="badge badge-blog">Blog</span></a>
