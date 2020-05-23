@@ -6,10 +6,15 @@ date:   2020-05-07 14:00:01 +0200
 categories: blog
 tag: memory-bis
 author: Marghe
-preview_img: /img/posts/bea-dec-19.jpeg
+preview_img: /img/posts/marghe_0.jpg
 period: 2019-07
 excerpt: Parole al miele da una delle più care amiche a Montpellier
 badge: ricordo
+pictures:
+    - path: /img/posts/marghe_0.jpg
+      caption: 
+    - path: /img/posts/marghe_1.jpg
+      caption:     
 ---
 
 Forse sono l'amica piu' recente di Bea.
@@ -22,6 +27,10 @@ Poi ci siamo parlate davanti a scuola ed ho davvero apprezzato questa ragazza se
 
 Ti auguro uno splendido trentesimo Bea, ti voglio bene!
 
-![bea-dicembre](/img/posts/bea-dec-19.jpeg)
+<br/>
+
+{% include carousel.html pictures=page.pictures %}
+
+<br/>
 
 <a href="/blog"><span class="badge badge-blog">Blog</span></a>
